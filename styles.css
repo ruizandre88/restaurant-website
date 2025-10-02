@@ -19,8 +19,8 @@ header {
 
 .logo { 
     max-width: 160px; 
-    max-height: 200px; h
-    eight: auto; 
+    max-height: 200px; 
+    height: auto; 
     width: auto; 
     display: block; 
     margin: 0.5rem auto 0 
