@@ -1,47 +1,111 @@
 body {
+    display:flex;
+    flex-direction: row;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
+    margin:auto auto;
+    max-width: 100%;
+    box-sizing: border-box;
 }
-
-#header {
-    background-color: #333333;
-    color: #000000;
+header {
+    background-image: url("images/dining_room.jpg");
+    background-image: linear-gradient(rgba(23, 19, 19, 0.434), rgba(23, 19, 19, 0.434)), url("images/dining_room.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #c3c9a9;
     text-align: center;
     padding: 50px;
+        }
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#nav {
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding: 2rem;
+    min-width: 250px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 20px;
+    width:30%;
+    border-radius: 15px;
+}
+    
+
+nav {
     background-color: #444444;
     color: #ffffff;
     text-align: center;
     padding: 10px;
 }
 
-#nav a {
+nav a {
     color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
 }
 
-#content {
-    width: 800px;
-    margin: 0 auto;
-}
 
-.left {
-    float: left;
-    width: 400px;
-}
-
-.right {
-    float: right;
-    width: 400px;
-}
-
-#footer {
+footer {
     clear: both;
     background-color: #333333;
-    color: #000000;
+    color: #c3c9a9;
     text-align: center;
     padding: 20px;
+}
+.menu-main {
+    margin: auto auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.menu-flex-container {
+    display:flex;
+    flex-direction:column;
+    gap: 32px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-flex-row {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.menu-flex-item {
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 24px;
+    flex: 1 1 0;
+    max-width: 420px;
+    text-align: center;
+}
+
+.menu-flex-item img {
+    margin-top: 16px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }

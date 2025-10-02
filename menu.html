@@ -1,49 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Our Menu - Delicious Eats</title>
+    <charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Our Menu - Delicious Eats</title>
 </head>
 <body>
-    <div id="header">
+    <header>
         <h1>Our Menu</h1>
-        <img src="images/logo.jpg" height="200">
-    </div>
-    <div id="nav">
+        <img src="images/logo.jpg" height="200" alt="Delicious Eats Logo">
+    </header>
+    <nav>
         <a href="index.html">Home</a> |
         <a href="menu.html">Menu</a> |
         <a href="#">Contact</a>
-    </div>
-    <div id="content">
-        <table border="0">
-            <tr>
-                <td>
+    </nav>
+    <main class="menu-main">
+        <div class="menu-flex-container">
+            <div class="menu-flex-row">
+                <div class="menu-flex-item">
                     <h3>Appetizers</h3>
                     <p>Delicious starters to begin your meal.</p>
                     <img src="images/dish1.jpg" width="400">
-                </td>
-                <td>
+                </div>
+                <div class="menu-flex-item">
                     <h3>Main Courses</h3>
                     <p>Satisfying entrees to delight your palate.</p>
                     <img src="images/dish2.jpg" width="400">
-                </td>
-            </tr>
-            <tr>
-                <td>
+                </div>
+            </div>
+            <div class="menu-flex-row">
+                <div class="menu-flex-item">
                     <h3>Desserts</h3>
                     <p>Sweet treats to finish your dining experience.</p>
                     <img src="images/dish3.jpg" width="400">
-                </td>
-                <td>
+                </div>
+                <div class="menu-flex-item">
                     <h3>Beverages</h3>
                     <p>A selection of drinks to complement your meal.</p>
                     <img src="images/dish4.jpg" width="400">
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="footer">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
         <p>&copy; 2023 Delicious Eats</p>
-    </div>
+    </footer>
 </body>
 </html>
