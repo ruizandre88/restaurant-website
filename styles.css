@@ -11,7 +11,7 @@ body {
 
 header { 
     padding: 28px 16px; 
-    background-image: linear-gradient(rgba(23, 19, 19, 0.434), rgba(23, 19, 19, 0.434)), url("images/dining_room.jpg"); 
+    background-image: linear-gradient(rgba(23, 19, 19, 0.434), rgba(23, 19, 19, 0.434)), url("Images/dining_room.jpg"); 
     background-size: cover; 
     background-position: center; 
     color: #c3c9a9; 
